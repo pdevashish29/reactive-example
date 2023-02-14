@@ -16,8 +16,7 @@ public class ProductService {
     public  Mono<List<Product>> getProduct(){
 
         WebClient webClient = WebClient.create("https://fakestoreapi.com/");
-        Mono<List<Product>> products =  webClient.get().uri("products").retrieve().bodyToMono(new ParameterizedTypeReference<List<Product>>() {
-        });
+        Mono<List<Product>> products =  webClient.get().uri("products").retrieve().bodyToMono(new ParameterizedTypeReference<List<Product>>() { });
 
        return products;
 
