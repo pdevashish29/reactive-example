@@ -9,6 +9,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/fakestore")
+@CrossOrigin(origins = "*", allowedHeaders = "*")
 public class UserController {
 
     @Autowired
