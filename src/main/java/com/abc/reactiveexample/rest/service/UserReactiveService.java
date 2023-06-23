@@ -1,4 +1,4 @@
-package com.abc.reactiveexample.rest;
+package com.abc.reactiveexample.rest.service;
 
 import com.abc.reactiveexample.rest.vo.UserVO;
 import lombok.extern.slf4j.Slf4j;

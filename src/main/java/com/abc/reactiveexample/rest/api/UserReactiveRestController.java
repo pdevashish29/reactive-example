@@ -1,5 +1,6 @@
-package com.abc.reactiveexample.rest;
+package com.abc.reactiveexample.rest.api;
 
+import com.abc.reactiveexample.rest.service.UserReactiveService;
 import com.abc.reactiveexample.rest.vo.UserVO;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -15,11 +16,8 @@ import java.util.List;
 @Slf4j
 public class UserReactiveRestController {
 
-
     @Autowired
     private UserReactiveService userReactiveService;
-
-
 
     @GetMapping("/users")
     public Mono<List<UserVO>> getUsers(){

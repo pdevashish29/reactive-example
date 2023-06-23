@@ -1,5 +1,6 @@
-package com.abc.reactiveexample.rest;
+package com.abc.reactiveexample.rest.service;
 
+import com.abc.reactiveexample.rest.vo.Product;
 import org.springframework.core.ParameterizedTypeReference;
 import org.springframework.stereotype.Service;
 import org.springframework.web.reactive.function.client.WebClient;

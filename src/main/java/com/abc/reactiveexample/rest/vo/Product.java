@@ -1,4 +1,4 @@
-package com.abc.reactiveexample.rest;
+package com.abc.reactiveexample.rest.vo;
 
 import lombok.Data;
 
