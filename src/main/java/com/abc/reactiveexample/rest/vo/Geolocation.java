@@ -1,4 +1,4 @@
-package com.abc.reactiveexample.vo;
+package com.abc.reactiveexample.rest.vo;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.Data;

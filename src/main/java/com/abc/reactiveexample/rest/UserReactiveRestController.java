@@ -1,6 +1,6 @@
-package com.abc.reactiveexample;
+package com.abc.reactiveexample.rest;
 
-import com.abc.reactiveexample.vo.UserVO;
+import com.abc.reactiveexample.rest.vo.UserVO;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
